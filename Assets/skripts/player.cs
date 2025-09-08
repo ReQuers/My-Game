@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    public float normal_speed_player = 100f, sprint_speed_delta = 90f, delta_player_jump = 7f; //move
+    public float normal_speed_player = 200f, sprint_speed_delta = 180f, delta_player_jump = 7f; //move
     private Rigidbody RB_Player;
     private float x_move = 0f, z_move = 0f, ground_check_distance = 1.1f, speed_player_move;
 
